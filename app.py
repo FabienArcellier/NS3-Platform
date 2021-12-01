@@ -9,7 +9,8 @@ from pymongo import MongoClient
 from models import ModelUsers, ModelRecords 
 
 
-cluster = MongoClient("mongodb+srv://admin:KesummWHH5yr68c@cluster0.mi5o8.mongodb.net/web_simulation?retryWrites=true&w=majority")
+mongo_url = os.getenv('SCALINGO_MONGO_URL', "mongodb+srv://xxxxxx:xxxxxx@cluster0.mi5o8.mongodb.net/web_simulation?retryWrites=true&w=majority")
+cluster = MongoClient(mongo_url)
 db = cluster["web_simulation"]
 users = db["users"]
 records = db["records"]
