@@ -1,6 +1,0 @@
-Waf: Entering directory `/Users/samirsim/Desktop/Platform/NS3-Platform/code/static/ns-lora/build'
-Waf: Leaving directory `/Users/samirsim/Desktop/Platform/NS3-Platform/code/static/ns-lora/build'
-Build commands will be stored in build/compile_commands.json
-'build' finished successfully (0.232s)
-Success rate: 100.000000
-100.00
